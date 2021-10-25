@@ -11,7 +11,7 @@ sections:
       - label: Learn More
         url: /features
         style: primary
-      - label: Contact Us
+      - label: Contact Me
         url: /contact
         style: secondary
     align: left
