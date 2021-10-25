@@ -2,10 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: >-
-      Hi, I am Arno a Goal-oriented professor with deep knowledge inmechanical
-      design. Outgoing, curious, and creative, anda good team player. Has a
-      Ph.D. in Automatic Control.
+    title: 'Hi, I am Arno a Data Scientist.'
     subtitle: >-
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
       quis lorem malesuada luctus.
