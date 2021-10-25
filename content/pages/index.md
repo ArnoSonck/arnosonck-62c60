@@ -26,9 +26,9 @@ sections:
       background_image_size: auto
       background_image_repeat: repeat
   - type: features_section
-    title: Portfolio
+    title: Features
     features:
-      - title: Feature 1
+      - title: Python
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -41,7 +41,7 @@ sections:
           - label: Learn More
             url: /features
             style: secondary
-      - title: En construcción
+      - title: Matlab
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
@@ -54,7 +54,7 @@ sections:
           - label: Learn More
             url: /features
             style: secondary
-      - title: Feature 3
+      - title: Autodesk Inventor
         content: >-
           Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus
           eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
