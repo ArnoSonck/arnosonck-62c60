@@ -4,8 +4,9 @@ sections:
   - type: hero_section
     title: 'Hi, I am Arno a Data Scientist.'
     subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+      Goal-oriented data scientist with deep knowledge in mechanical design.
+      Outgoing, curious, and creative, anda good team player. Has a Ph.D. in
+      Automatic Control.
     actions:
       - label: Learn More
         url: /features
