@@ -2,7 +2,7 @@
 title: Home
 sections:
   - type: hero_section
-    title: 'Hi, I am Arno a Data Scientist.'
+    title: 'Hi, I am Arno.'
     subtitle: >-
       Goal-oriented data scientist with deep knowledge in mechanical design.
       Outgoing, curious, and creative, anda good team player. Has a Ph.D. in
