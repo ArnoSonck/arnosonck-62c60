@@ -1,5 +1,5 @@
 ---
-title: Hola Mundo
+title: ¿Cómo empezar a ser un científico proactivo e investigar por tu cuenta?
 date: '2021-10-25'
 author: content/data/team/dianne-ameter.yaml
 categories:
