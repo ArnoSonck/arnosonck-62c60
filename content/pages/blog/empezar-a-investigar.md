@@ -5,7 +5,7 @@ author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/general.yaml
-image: https://ibb.co/3z9Shyb
+image: ![Foto de Mohammad Danish en Pexels](https://ibb.co/3z9Shyb)
 image_alt: Foto de Mohammad Danish en Pexels
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
