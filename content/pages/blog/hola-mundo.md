@@ -1,6 +1,6 @@
 ---
 title: ¿Cómo empezar a ser un científico proactivo e investigar por tu cuenta?
-date: '2021-10-25'
+date: '2021-10-02'
 author: content/data/team/dianne-ameter.yaml
 categories:
   - content/data/categories/tutorials.yaml
