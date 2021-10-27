@@ -7,7 +7,7 @@ sections:
     align: center
   - type: features_section
     features:
-      - title: Feature 1
+      - title: Python
         content: >-
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec nisl
           ligula, cursus id molestie vel, maximus aliquet risus. Vivamus in nibh
@@ -20,7 +20,7 @@ sections:
           - label: Learn More
             url: /about
             style: primary
-      - title: Feature 2
+      - title: Matlab
         content: >-
           Ac felis donec et odio pellentesque. Sagittis vitae et leo duis ut
           diam quam nulla. Ullamcorper a lacus vestibulum sed arcu non odio
@@ -33,7 +33,7 @@ sections:
           - label: Learn More
             url: /style-guide
             style: primary
-      - title: Feature 3
+      - title: Autodesk Inventor
         content: >-
           Id nibh tortor id aliquet lectus proin. Amet venenatis urna cursus
           eget nunc. Lacus sed turpis tincidunt id aliquet risus feugiat in
