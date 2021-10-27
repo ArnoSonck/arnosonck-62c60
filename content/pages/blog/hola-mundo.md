@@ -1,17 +1,18 @@
 ---
 title: ¿Cómo empezar a ser un científico proactivo e investigar por tu cuenta?
 date: '2021-10-26'
-author: content/data/team/dianne-ameter.yaml
+author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/general.yaml
-image: images/1.png
-image_alt: Post 1 placeholder image
+image: ![Foto de Mohammad Danish en Pexels](https://ibb.co/3z9Shyb)
+image_alt: Foto de Mohammad Danish en Pexels
 excerpt: >-
-  Felicidades, ya cumpliste con la investigación de tu asesor y puedes iniciar
-  la propia, pero, ¿Por dónde empezar?
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
+  magnitudine obruebantur. Duo Reges: constructio interrete.
 seo:
-  title: Utrum Igitur Tibi Litteram Videor An Totas Paginas
+  title: ¿Cómo empezar a ser un científico proactivo e investigar por tu cuenta?
+  description: 'Felicidades, has sido aceptado en ese primer posgrado que tanto querías y para el cual estudiaste como nunca antes en tu vida, ya paso todo el glamur y la bienvenida e incluso ya hasta trabajas con un investigador de verdad en un tema de lo mas interesante y retador. Es probable que no tuvieras mucha influencia sobre ese primer tema de investigación pero conforme avanzas querrás saciar tu propia curiosidad, pero, ¿Por dónde empezar?'
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
   extra:
     - name: 'og:type'
