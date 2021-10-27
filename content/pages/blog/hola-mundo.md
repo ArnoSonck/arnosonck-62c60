@@ -8,8 +8,8 @@ categories:
 image: images/1.png
 image_alt: Post 1 placeholder image
 excerpt: >-
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
-  magnitudine obruebantur. Duo Reges: constructio interrete.
+  Felicidades, ya cumpliste con la investigación de tu asesor y puedes iniciar
+  la propia, pero, ¿Por dónde empezar?
 seo:
   title: Utrum Igitur Tibi Litteram Videor An Totas Paginas
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
