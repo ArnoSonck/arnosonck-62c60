@@ -13,7 +13,6 @@ excerpt: >-
 seo:
   title: ¿Cómo empezar a ser un científico proactivo e investigar por tu cuenta?
   description: 'Felicidades, has sido aceptado en ese primer posgrado que tanto querías y para el cual estudiaste como nunca antes en tu vida, ya paso todo el glamur y la bienvenida e incluso ya hasta trabajas con un investigador de verdad en un tema de lo mas interesante y retador. Es probable que no tuvieras mucha influencia sobre ese primer tema de investigación pero conforme avanzas querrás saciar tu propia curiosidad, pero, ¿Por dónde empezar?'
-  description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
   extra:
     - name: 'og:type'
       value: article
