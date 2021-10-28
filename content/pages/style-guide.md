@@ -119,21 +119,4 @@ Inline `code` with `back-ticks around` it.
   </table>
 </div>
 
-# Markdown cheat sheet
-
-## &#xA;**Headers**
-
-```
-```
-
-*   \#h1 header
-
-*   \##h2 header
-
-*   \###h3 header
-
-*   \####h4 header
-
-*   \#####h5 header
-
-# \`\`\`&#xA;var add2 = function(number) {&#xA;  return number + 2;&#xA;}&#xA;\`\`\`&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;
+# &#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;
