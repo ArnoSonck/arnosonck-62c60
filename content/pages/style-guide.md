@@ -126,7 +126,7 @@ Inline `code` with `back-ticks around` it.
 ```
 ```
 
-*   \>#h1 header
+*   \#h1 header
 
 *   \##h2 header
 
@@ -136,4 +136,4 @@ Inline `code` with `back-ticks around` it.
 
 *   \#####h5 header
 
-# &#xA;&#xA;&#xA;&#xA;&#xA;
+# \`\`\`&#xA;var add2 = function(number) {&#xA;  return number + 2;&#xA;}&#xA;\`\`\`&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;&#xA;
