@@ -30,7 +30,7 @@ sections:
     show_recent: true
     recent_count: 3
   - type: cta_section
-    subtitle: I
+    subtitle: 'I like '
     actions:
       - label: Learn More
         url: /features
