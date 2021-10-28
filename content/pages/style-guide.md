@@ -119,9 +119,11 @@ Inline `code` with `back-ticks around` it.
   </table>
 </div>
 
+# Markdown cheat sheet
 
+## &#xA;**Headers**
 
-# Markdown cheat sheet&#xA;**Headers**
+    ``
 
 *   \#h1 header
 
@@ -132,6 +134,8 @@ Inline `code` with `back-ticks around` it.
 *   \####h4 header
 
 *   \#####h5 header
+
+**\`\`**\`
 
 <!---->
 
