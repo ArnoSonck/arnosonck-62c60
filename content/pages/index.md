@@ -9,7 +9,7 @@ sections:
       Automatic Control.
     actions:
       - label: Learn More
-        url: /features
+        url: /about
         style: primary
       - label: Contact Me
         url: /contact
