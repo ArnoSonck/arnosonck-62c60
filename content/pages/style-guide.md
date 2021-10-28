@@ -123,7 +123,7 @@ Inline `code` with `back-ticks around` it.
 
 ## &#xA;**Headers**
 
-    ``
+    ```
 
 *   \#h1 header
 
