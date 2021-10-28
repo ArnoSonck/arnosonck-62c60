@@ -5,7 +5,7 @@ author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/general.yaml
-image: ![](https://i.ibb.co/BjKMN2P/pexels-mohammad-danish-891059.jpg)
+image: https://i.ibb.co/BjKMN2P/pexels-mohammad-danish-891059.jpg
 image_alt: Post 1 placeholder image
 excerpt: >-
   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ea mala virtuti
