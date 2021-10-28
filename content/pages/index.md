@@ -30,9 +30,7 @@ sections:
     show_recent: true
     recent_count: 3
   - type: cta_section
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
+    subtitle: Sinte la libertad de expresar que
     actions:
       - label: Learn More
         url: /features
