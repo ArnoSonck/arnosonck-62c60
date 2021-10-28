@@ -39,7 +39,7 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-    title: ad
+    title: Sugerir temas
 seo:
   title: Stackbit Starter Theme
   description: The preview of the Starter theme
