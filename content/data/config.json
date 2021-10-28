@@ -25,7 +25,8 @@
                 "url": "/contact",
                 "style": "primary"
             }
-        ]
+        ],
+        "logo": "/images/favicon-256x256.png"
     },
     "footer": {
         "has_nav": true,
