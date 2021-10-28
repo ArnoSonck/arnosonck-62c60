@@ -37,6 +37,7 @@ sections:
     has_background: true
     background_color: gray
     title: Click bait
+    subtitle: It is just
 seo:
   title: Stackbit Starter Theme
   description: The preview of the Starter theme
