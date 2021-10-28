@@ -39,7 +39,7 @@ sections:
     title: Click bait
     subtitle: "It is just the \"Learn More\" button \U0001F601"
 seo:
-  title: Stackbit Starter Theme
+  title: Muisto
   description: The preview of the Starter theme
   extra:
     - name: 'og:type'
