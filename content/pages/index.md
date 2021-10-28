@@ -36,7 +36,9 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-    title: Know me
+    title: >-
+      Here should be a call to action comment but I am not too creative so pleas
+      just click the following bottom
 seo:
   title: Stackbit Starter Theme
   description: The preview of the Starter theme
