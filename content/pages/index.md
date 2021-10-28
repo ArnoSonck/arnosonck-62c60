@@ -37,7 +37,7 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-    title: Sugerir temas
+    title: Know me
 seo:
   title: Stackbit Starter Theme
   description: The preview of the Starter theme
