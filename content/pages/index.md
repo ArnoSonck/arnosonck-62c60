@@ -37,7 +37,7 @@ sections:
     has_background: true
     background_color: gray
     title: Click bait
-    subtitle: It is just the learn more button
+    subtitle: (It is just the learn more button )
 seo:
   title: Stackbit Starter Theme
   description: The preview of the Starter theme
