@@ -31,7 +31,7 @@ sections:
     recent_count: 3
   - type: cta_section
     actions:
-      - label: Learn More
+      - label: Mystery
         url: /about
         style: primary
     has_background: true
