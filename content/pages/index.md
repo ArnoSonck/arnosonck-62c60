@@ -9,7 +9,7 @@ sections:
       Automatic Control.
     actions:
       - label: Learn More
-        url: /features
+        url: /about
         style: primary
       - label: Contact Me
         url: /contact
@@ -30,16 +30,14 @@ sections:
     show_recent: true
     recent_count: 3
   - type: cta_section
-    title: This Is A CTA
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
     actions:
-      - label: Learn More
-        url: /features
+      - label: Mystery button
+        url: /about
         style: primary
     has_background: true
     background_color: gray
+    title: Click bait
+    subtitle: "It is just the \"Learn More\" button \U0001F601"
 seo:
   title: Stackbit Starter Theme
   description: The preview of the Starter theme
