@@ -30,7 +30,6 @@ sections:
     show_recent: true
     recent_count: 3
   - type: cta_section
-    subtitle: if you want to
     actions:
       - label: Learn More
         url: /features
