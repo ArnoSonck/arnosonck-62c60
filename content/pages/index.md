@@ -36,9 +36,7 @@ sections:
         style: primary
     has_background: true
     background_color: gray
-    title: >-
-      Here should be a call to action comment but I am not too creative so pleas
-      just click the following bottom
+    title: Click bait
 seo:
   title: Stackbit Starter Theme
   description: The preview of the Starter theme
