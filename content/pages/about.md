@@ -5,7 +5,7 @@ sections:
     title: Who I am
     align: center
   - type: content_section
-    content: >
+    content: >+
       Hi, my name is Arno Sonck, I am from México and right now I am learning to
       code in Python to used on data science.
 
@@ -18,7 +18,8 @@ sections:
 
       At the present I am a teacher of physics, statistics and computation so,
       feel free to ask any related question, I may not have the answer but I can
-      find it. 
+      find it.
+
   - type: cta_section
     title: Let me know about you
     actions:
