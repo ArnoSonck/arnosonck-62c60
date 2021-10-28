@@ -32,7 +32,7 @@ sections:
   - type: cta_section
     actions:
       - label: Learn More
-        url: /features
+        url: /about
         style: primary
     has_background: true
     background_color: gray
