@@ -30,7 +30,7 @@ sections:
     show_recent: true
     recent_count: 3
   - type: cta_section
-    subtitle: Sinte la libertad de expresar que
+    subtitle: I
     actions:
       - label: Learn More
         url: /features
