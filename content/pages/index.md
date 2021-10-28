@@ -30,7 +30,7 @@ sections:
     show_recent: true
     recent_count: 3
   - type: cta_section
-    subtitle: 'I work and like data science '
+    subtitle: 'if do '
     actions:
       - label: Learn More
         url: /features
