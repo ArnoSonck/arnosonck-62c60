@@ -1,5 +1,5 @@
 ---
-title: 'A dichotomy (contradiction 😉) in statistics students'
+title: "A dichotomy (contradiction \U0001F609) in statistics students"
 date: '2021-10-28'
 author: content/data/team/arno-sonck.yaml
 categories:
@@ -10,13 +10,18 @@ tags:
   - Statistics
   - Python
   - Study
-image: https://i.ibb.co/gVnSv4B/pexels-lukas-590045.jpg
+image: 'https://i.ibb.co/gVnSv4B/pexels-lukas-590045.jpg'
 image_alt: Post 2 placeholder image
 excerpt: >-
-  Many students complain about statistics, however, they had strong discussions about their favorite sports player appealing to score average, history records, and other statistical tools. - Foto by Lukas in Pexels
+  Many students complain about statistics, however, they had strong discussions
+  about their favorite sports player appealing to score average, history
+  records, and other statistical tools. - Foto by Lukas from Pexels
 seo:
-  title: 'A dichotomy (contradiction 😉) in statistics students'
-  description: Many students complain about statistics, however, they had strong discussions about their favorite sports player appealing to score average, history records, and other statistical tools
+  title: "A dichotomy (contradiction \U0001F609) in statistics students"
+  description: >-
+    Many students complain about statistics, however, they had strong
+    discussions about their favorite sports player appealing to score average,
+    history records, and other statistical tools
   extra:
     - name: 'og:type'
       value: article
