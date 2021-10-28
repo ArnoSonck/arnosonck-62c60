@@ -123,9 +123,10 @@ Inline `code` with `back-ticks around` it.
 
 ## &#xA;**Headers**
 
-    ```
+```
+```
 
-*   \#h1 header
+*   \`#h1\` header
 
 *   \##h2 header
 
@@ -134,47 +135,5 @@ Inline `code` with `back-ticks around` it.
 *   \####h4 header
 
 *   \#####h5 header
-
-**\`\`**\`
-
-<!---->
-
-*   \`code\`Code
-
-*   \`\`\`Code block
-
-<!---->
-
-*   \_italic_Italic
-
-*   \*\*bold\*\*Bold
-
-*   \~~strikethrough~~Strikethrough
-
-<!---->
-
-*   \[link text]\(url)External link
-
-*   \[title]\(#section)Section link
-
-<!---->
-
-*   \-spaceBulleted list
-
-*   1.spaceNumbered list
-
-<!---->
-
-*   $x=$1Math (inline)
-
-*   $$$Math block
-
-<!---->
-
-*   \>Quote
-
-*   \---Divider
-
-*   \<h1>Hello\</h1>Html
 
 # &#xA;&#xA;&#xA;&#xA;&#xA;
