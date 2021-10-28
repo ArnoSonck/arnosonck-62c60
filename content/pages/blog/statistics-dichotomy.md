@@ -47,9 +47,9 @@ seo:
       relativeUrl: true
 layout: post
 ---
-
 ## Introduction
-Statistics is the terror of many teenayers since it is taught without context or situations that are not related to theirs daily life nor the life they are dreaming to achieve. As a consequence, statistics became a subject that only evaluates the ability to make systematic calculations.
+
+Statistics is the terror of many teenagers since it is taught without context or situations that are not related to theirs daily life nor the life they are dreaming to achieve. As a consequence, statistics became a subject that only evaluates the ability to make systematic calculations.
 
 ## A possible solution
 
@@ -57,11 +57,10 @@ In order to present statistics as a powerful tool for decision-making, it is nec
 
 ## Use software
 
-Hand calculation is essential to develope cognitive abilities, however, they will hardly beat a computer in velocity or precision. It is wise to also teach how to use specialized software as Excel or Python focused on data science. This way, your students will be able to really use statistics and focus on understanding the meaning of the measures, as central tendency and variation.
+Hand calculation is essential to develop cognitive abilities, however, they will hardly beat a computer in velocity or precision. It is wise to also teach how to use specialized software as Excel or Python focused on data science. This way, your students will be able to really use statistics and focus on understanding the meaning of the measures, as central tendency and variation.
 
-## Coclusion
+## Conclusion 
 
-It doesn’t maters If you are a teacher, professor, or student, statistics is beautiful when you truly understand it. 
+It doesn’t maters If you are a teacher, professor, or student, statistics is beautiful when you truly understand it.
 
 Do you agree or disagree with me? please let me know
-
