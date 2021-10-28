@@ -9,7 +9,7 @@ sections:
       Automatic Control.
     actions:
       - label: Learn More
-        url: /features
+        url: /about
         style: primary
       - label: Contact Me
         url: /contact
@@ -30,25 +30,23 @@ sections:
     show_recent: true
     recent_count: 3
   - type: cta_section
-    title: This Is A CTA
-    subtitle: >-
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a metus
-      quis lorem malesuada luctus.
     actions:
-      - label: Learn More
-        url: /features
+      - label: Mystery button
+        url: /about
         style: primary
     has_background: true
     background_color: gray
+    title: Click bait
+    subtitle: "It is just the \"Learn More\" button \U0001F601"
 seo:
-  title: Stackbit Starter Theme
+  title: Muisto
   description: The preview of the Starter theme
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Stackbit Starter Theme
+      value: Muisto
       keyName: property
     - name: 'og:description'
       value: The preview of the Starter theme
@@ -60,7 +58,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Stackbit Starter Theme
+      value: Muisto
     - name: 'twitter:description'
       value: The preview of the Starter theme
     - name: 'twitter:image'

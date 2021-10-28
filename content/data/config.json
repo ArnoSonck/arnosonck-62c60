@@ -1,5 +1,5 @@
 {
-    "title": "Stackbit Starter Theme",
+    "title": "Muisto",
     "path_prefix": "/",
     "header": {
         "title": "Muisto",
@@ -31,7 +31,7 @@
         "has_nav": true,
         "nav_links": [
             {
-                "label": "Contact Us",
+                "label": "Contact",
                 "url": "/contact",
                 "style": "link"
             },
@@ -64,5 +64,6 @@
         ],
         "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=starter&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
     },
-    "domain": "https://arnosonck-62c60.netlify.app"
+    "domain": "https://arnosonck-62c60.netlify.app",
+    "favicon": "/images/favicon-256x256-a02a3494.png"
 }
