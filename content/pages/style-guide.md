@@ -126,7 +126,7 @@ Inline `code` with `back-ticks around` it.
 ```
 ```
 
-*   \`#h1\` header
+*   \>#h1 header
 
 *   \##h2 header
 
