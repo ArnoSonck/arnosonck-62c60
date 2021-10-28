@@ -15,7 +15,7 @@ image_alt: Post 2 placeholder image
 excerpt: >-
   Many students complain about statistics, however, they had strong discussions
   about their favorite sports player appealing to score average, history
-  records, and other statistical tools. - Foto by Lukas from Pexels
+  records, and other statistical tools. - Foto by Lukas in Pexels
 seo:
   title: "A dichotomy (contradiction \U0001F609) in statistics students"
   description: >-
