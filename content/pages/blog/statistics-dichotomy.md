@@ -1,6 +1,6 @@
 ---
 title: 'A dichotomy (contradiction 😉) in statistics students'
-date: '2020-05-25'
+date: '2021-10-28'
 author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/news.yaml
