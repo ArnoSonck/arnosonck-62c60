@@ -8,7 +8,7 @@ categories:
 image: https://i.ibb.co/BjKMN2P/pexels-mohammad-danish-891059.jpg
 image_alt: Post 1 placeholder image
 excerpt: >-
-  Being able to read almost any scientific publication on Internet is wonderful, however, it is not feasible to read all daily publications.
+  Being able to read almost any scientific publication on Internet is wonderful, however, it is not feasible to read all daily publications. -Photo by Mohammad Danish from Pexels
 seo:
   title: Utrum Igitur Tibi Litteram Videor An Totas Paginas
   description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
