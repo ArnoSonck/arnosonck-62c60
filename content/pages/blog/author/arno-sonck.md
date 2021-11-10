@@ -6,9 +6,9 @@ sections:
     align: center
   - type: blog_feed_section
     show_recent: false
-    author: content/data/team/gordon-norman.yaml
+    author: content/data/team/arno-sonck.yaml
 seo:
-  title: Posts by Gordon Norman
+  title: Posts by Arno Sonck
   description: This is the author archive page
   extra:
     - name: 'og:type'
