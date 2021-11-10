@@ -1,24 +1,24 @@
 ---
-title: Arno Sonck
+title: Observers
 sections:
   - type: hero_section
-    title: All Posts By Arno Sonck
+    title: All Posts In Observers
     align: center
   - type: blog_feed_section
     show_recent: false
-    author: content/data/team/arno-sonck.yaml
+    category: content/data/categories/observers.yaml
 seo:
-  title: Posts by Arno Sonck
-  description: This is the author archive page
+  title: Posts in Observers
+  description: This is the category archive page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Posts by Gordon Norman
+      value: Posts in Observers
       keyName: property
     - name: 'og:description'
-      value: This is the author archive page
+      value: This is the category archive page
       keyName: property
     - name: 'og:image'
       value: images/1.png
@@ -27,9 +27,9 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Posts by Gordon Norman
+      value: Posts in Tutorials
     - name: 'twitter:description'
-      value: This is the author archive page
+      value: This is the category archive page
     - name: 'twitter:image'
       value: images/1.png
       relativeUrl: true
