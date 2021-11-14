@@ -7,9 +7,11 @@ seo:
   extra: []
 layout: page
 ---
-## Lorem ipsum
+## Social Media
 
-Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+### [LinkedIn](https://www.linkedin.com/in/arnosonck/)
 
-- Lorem ipsum
-- dolor sit amet
+[Twitter](https://twitter.com/ArnoSonck)
+
+[GitHub](https://github.com/ArnoSonck)
+
