@@ -5,7 +5,7 @@ sections:
     title: 'Hi, I am Arno.'
     subtitle: >-
       Goal-oriented data scientist with deep knowledge in mechanical design.
-      Outgoing, curious, and creative, anda good team player. Has a Ph.D. in
+      Outgoing, curious, and creative, and a good team player. Has a Ph.D. in
       Automatic Control.
     actions:
       - label: Learn More

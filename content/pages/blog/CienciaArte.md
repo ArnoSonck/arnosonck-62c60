@@ -7,13 +7,15 @@ categories:
 tags:
   - Art
   - Science
-image: https://i.ibb.co/hBcS13f/pexels-photo-6369354.jpg
+image: 'https://i.ibb.co/hBcS13f/pexels-photo-6369354.jpg'
 image_alt: Foto by Chuck Johnson from Pexels
-excerpt: >-
-  Art and Science are strongly related, bout ain are in constant change, bout need discipline, and bout can be done by anyone. So,  is there any difference at all? an artist can be a scientist and vice versa?
+excerpt: "Art and Science are strongly related, bout ain are in constant change, bout need discipline, and bout can be done by anyone. So,  is there any difference at all? an artist can be a scientist and vice versa? -\_Foto by Chuck Johnson from Pexels"
 seo:
   title: Art and Science
-  description: 'Art and Science are strongly related, bout ain are in constant change, bout need discipline, and bout can be done by anyone. So,  is there any difference at all? an artist can be a scientist and vice versa?'
+  description: >-
+    Art and Science are strongly related, bout ain are in constant change, bout
+    need discipline, and bout can be done by anyone. So,  is there any
+    difference at all? an artist can be a scientist and vice versa?
   extra:
     - name: 'og:type'
       value: article
@@ -22,10 +24,10 @@ seo:
       value: Art and Science
       keyName: property
     - name: 'og:description'
-      value: 'Art and Science'
+      value: Art and Science
       keyName: property
     - name: 'og:image'
-      value:  https://i.ibb.co/hBcS13f/pexels-photo-6369354.jpg
+      value: 'https://i.ibb.co/hBcS13f/pexels-photo-6369354.jpg'
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -33,9 +35,9 @@ seo:
     - name: 'twitter:title'
       value: Art and Science
     - name: 'twitter:description'
-      value: 'Art and Science'
+      value: Art and Science
     - name: 'twitter:image'
-      value: https://i.ibb.co/hBcS13f/pexels-photo-6369354.jpg
+      value: 'https://i.ibb.co/hBcS13f/pexels-photo-6369354.jpg'
       relativeUrl: true
 layout: post
 ---

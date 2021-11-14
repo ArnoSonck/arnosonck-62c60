@@ -1,5 +1,7 @@
 ---
-title: Have you ever wanted to know somethig that can not be measure? Use an observer.
+title: >-
+  Have you ever wanted to know somethig that can not be measure? Use an
+  observer.
 date: '2021-11-09'
 author: content/data/team/arno-sonck.yaml
 categories:
@@ -7,13 +9,18 @@ categories:
 tags:
   - Stackbit
   - JAMstack
-image: https://i.ibb.co/RztzLKK/pexels-photo-1342460.jpg
+image: 'https://i.ibb.co/RztzLKK/pexels-photo-1342460.jpg'
 image_alt: Post 3 placeholder image
 excerpt: >-
-  An observer is an algorithm that can estimate parameters that can not be measured from the measurable parameters. - Foto of Vitaly Vlasov from Pexels
+  An observer is an algorithm that can estimate parameters that can not be
+  measured from the measurable parameters. - Foto by Vitaly Vlasov from Pexels
 seo:
-  title: Have you ever wanted to know somethig that can not be measure? Use an observer.
-  description: 'An observer is an algorithm that can estimate parameters that can not be measured from the measurable parameters.'
+  title: >-
+    Have you ever wanted to know somethig that can not be measure? Use an
+    observer.
+  description: >-
+    An observer is an algorithm that can estimate parameters that can not be
+    measured from the measurable parameters.
   extra:
     - name: 'og:type'
       value: article
