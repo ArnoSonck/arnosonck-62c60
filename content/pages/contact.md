@@ -10,7 +10,7 @@ sections:
       background_image_size: cover
       background_image_repeat: no-repeat
     actions:
-      - label: lorem-ipsum
+      - label: Let me know about you
         url: '#'
         style: link
         new_window: false
