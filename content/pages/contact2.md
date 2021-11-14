@@ -7,7 +7,7 @@ seo:
   extra: []
 layout: page
 ---
-## Social Media
+## Social Media:
 
 ### [LinkedIn](https://www.linkedin.com/in/arnosonck/)
 
