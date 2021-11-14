@@ -11,7 +11,7 @@ sections:
       background_image_repeat: no-repeat
     actions:
       - label: Let me know about you
-        url: '#'
+        url: 'https://twitter.com/ArnoSonck'
         style: link
         new_window: false
         no_follow: false
