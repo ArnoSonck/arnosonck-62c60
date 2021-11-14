@@ -11,7 +11,6 @@ layout: page
 
 ### [LinkedIn](https://www.linkedin.com/in/arnosonck/)
 
-[Twitter](https://twitter.com/ArnoSonck)
+### [Twitter](https://twitter.com/ArnoSonck)
 
-[GitHub](https://github.com/ArnoSonck)
-
+### [GitHub](https://github.com/ArnoSonck)
