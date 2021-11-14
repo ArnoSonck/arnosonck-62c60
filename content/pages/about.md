@@ -23,7 +23,7 @@ sections:
   - type: cta_section
     title: Let me know about you
     actions:
-      - label: Contact Us
+      - label: Contact
         url: /contact
         style: secondary
     has_background: true
