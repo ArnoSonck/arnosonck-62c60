@@ -16,7 +16,6 @@ sections:
         new_window: false
         no_follow: false
   - type: contact_section
-    title: Hola
 seo:
   title: Contact
   description: This is the contact page
