@@ -4,7 +4,6 @@ date: '2020-06-02'
 author: content/data/team/gordon-norman.yaml
 categories:
   - content/data/categories/tutorials.yaml
-  - content/data/categories/tutorials.yaml
 tags:
   - Stackbit
   - Netlify
