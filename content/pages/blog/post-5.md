@@ -12,9 +12,9 @@ tags:
   - Statistics
   - Clustering
   - Español
-image: images/5.png
+image: https://i.ibb.co/v4Tg9vh/Data-Clustering.jpg
 image_alt: Post 5 placeholder image
-excerpt: Este post es una traducción del post creado por George Seif.
+excerpt: Este post es una traducción del post creado por George Seif - Foto de Anna Nekrashevich en Pexels.
 seo:
   title: >-
     Los 5 algoritmos de agrupación en clústeres que los científicos de datos
