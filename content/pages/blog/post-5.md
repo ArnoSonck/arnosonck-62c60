@@ -73,7 +73,7 @@ K-Means tiene la ventaja de que es bastante rápido, ya que todo lo que realment
 
 Por otro lado, K-Means tiene un par de desventajas. En primer lugar, debes seleccionar cuántos grupos o clases hay. Esto no siempre es trivial e, idealmente, con un algoritmo de agrupación en clústeres, querríamos que lo averiguara por nosotros porque el objetivo es obtener algo de información a partir de los datos. K-means también comienza con una elección aleatoria de centros de conglomerados y, por lo tanto, puede producir diferentes resultados de conglomerados en diferentes ejecuciones del algoritmo. Por lo tanto, es posible que los resultados no sean repetibles y carezcan de consistencia. Otros métodos de agrupación son más consistentes.
 
-K-Medians^\[Medians se refiere a la mediana de un conjunto de datos.] es otro algoritmo de agrupamiento relacionado con K-Means, excepto que en lugar de volver a calcular los puntos centrales del grupo usando la media, usamos el vector median del grupo. Este método es menos sensible a los valores atípicos (debido al uso de la mediana), pero es mucho más lento para conjuntos de datos más grandes, ya que se requiere ordenar en cada iteración al calcular el vector de la mediana.
+K-Medians\[^ 1]es otro algoritmo de agrupamiento relacionado con K-Means, excepto que en lugar de volver a calcular los puntos centrales del grupo usando la media, usamos el vector median del grupo. Este método es menos sensible a los valores atípicos (debido al uso de la mediana), pero es mucho más lento para conjuntos de datos más grandes, ya que se requiere ordenar en cada iteración al calcular el vector de la mediana.
 
 ## Mean-Shift Clustering
 
@@ -127,21 +127,11 @@ Para encontrar los parámetros de Gauss para cada grupo (por ejemplo, la media y
 
 Hay dos ventajas clave de utilizar GMM. En primer lugar, los MMG son mucho más flexibles en términos de covarianza de clústeres que las K-medias; Debido al parámetro de desviación estándar, los grupos pueden adoptar cualquier forma de elipse, en lugar de limitarse a círculos. K-Means es en realidad un caso especial de GMM en el que la covarianza de cada grupo a lo largo de todas las dimensiones se acerca a 0. En segundo lugar, dado que los GMM usan probabilidades, pueden tener múltiples grupos por punto de datos. Entonces, si un punto de datos está en el medio de dos grupos superpuestos, simplemente podemos definir su clase diciendo que pertenece el porcentaje X a la clase 1 y el porcentaje Y a la clase 2. Es decir, los GMM admiten membresía mixta.
 
-
-
 ## Agglomerative Hierarchical Clustering (Agrupación jerárquica aglomerativa)
-
-
 
 Los algoritmos de agrupamiento jerárquico se dividen en 2 categorías: de arriba hacia abajo o de abajo hacia arriba. Los algoritmos ascendentes tratan cada punto de datos como un solo grupo desde el principio y luego fusionan (o aglomeran) sucesivamente pares de grupos hasta que todos los grupos se hayan fusionado en un solo grupo que contiene todos los puntos de datos. La agrupación jerárquica de abajo hacia arriba se denomina agrupación aglomerativa jerárquica o HAC (de sus siglas en inglés Hierarchical Agglomerative Clustering ). Esta jerarquía de grupos se representa como un árbol (o dendrograma). La raíz del árbol es el grupo único que reúne todas las muestras, siendo las hojas los grupos con una sola muestra. Consulte el gráfico a continuación para ver una ilustración antes de pasar a los pasos del algoritmo.
 
-
-
-
-
 ![](https://miro.medium.com/max/700/1\*ET8kCcPpr893vNZFs8j4xg.gif)
-
-
 
 1.  Comenzamos tratando cada punto de datos como un solo grupo, es decir, si hay X puntos de datos en nuestro conjunto de datos, entonces tenemos X grupos. Luego, seleccionamos una métrica de distancia que mide la distancia entre dos grupos. Como ejemplo, usaremos el enlace promedio (average linkage) que define la distancia entre dos grupos como la distancia promedio entre los puntos de datos en el primer grupo y los puntos de datos en el segundo grupo.
 
@@ -149,17 +139,13 @@ Los algoritmos de agrupamiento jerárquico se dividen en 2 categorías: de arrib
 
 3.  El paso 2 se repite hasta que llegamos a la raíz del árbol, es decir, solo tenemos un grupo que contiene todos los puntos de datos. De esta manera, podemos seleccionar cuántos clústeres queremos al final, simplemente eligiendo cuándo dejar de combinar los clústeres, es decir, ¡cuándo dejamos de construir el árbol!
 
-
-
 El agrupamiento jerárquico no requiere que especifiquemos el número de grupos e incluso podemos seleccionar qué número de grupos se ve mejor ya que estamos construyendo un árbol. Además, el algoritmo no es sensible a la elección de la métrica de distancia; todos tienden a funcionar igualmente bien, mientras que con otros algoritmos de agrupamiento, la elección de la métrica de distancia es fundamental. Un caso de uso particularmente bueno de los métodos de agrupamiento jerárquico es cuando los datos subyacentes tienen una estructura jerárquica y desea recuperar la jerarquía; otros algoritmos de agrupación en clústeres no pueden hacer esto. Estas ventajas de la agrupación jerárquica tienen el costo de una menor eficiencia, ya que tiene una complejidad de tiempo de *O(n³)*, a diferencia de la complejidad lineal de K-Means y GMM.
-
 
 # Conclusiones
 
 ¡Estos son los 5 algoritmos de agrupación en clúster principales que un científico de datos debería conocer! Terminaremos con una visualización impresionante de lo bien que funcionan estos algoritmos y algunos otros, cortesía de Scikit Learn. ¡Es genial ver cómo los diferentes algoritmos se comparan y contrastan con diferentes datos!
 
-
-
-
-
 ![](https://miro.medium.com/max/700/1\*oNt9G9UpVhtyFLDBwEMf8Q.png)
+
+\[^ 1]:Medians se refiere a la mediana de un conjunto de datos.
+
