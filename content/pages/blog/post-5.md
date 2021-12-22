@@ -6,6 +6,7 @@ categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/statistics.yaml
   - content/data/categories/category-yr12d3ueu.json
+  - content/data/categories/category-m6ok6iwle.json
 tags:
   - Stackbit
   - Netlify
