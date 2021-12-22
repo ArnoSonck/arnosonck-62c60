@@ -2,7 +2,7 @@
 title: >-
   Los 5 algoritmos de agrupación en clústeres que los científicos de datos deben
   conocer
-date: '2020-12-22'
+date: '2021-12-22'
 author: content/data/team/gordon-norman.yaml
 categories:
   - content/data/categories/tutorials.yaml
