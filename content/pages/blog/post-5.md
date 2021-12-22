@@ -46,9 +46,25 @@ seo:
       relativeUrl: true
 layout: post
 ---
+Este post es una traducción del siguiente [artículo](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68).
+Los nombres de los algoritmos los manejare en inglés.
+Todos los creditos van a su creador George Seif.
 
-Donec ultrices tincidunt arcu non sodales neque. Et netus et malesuada fames ac turpis egestas sed tempus. Cras pulvinar mattis nunc sed. Turpis cursus in hac habitasse platea dictumst quisque sagittis. Sollicitudin nibh sit amet commodo nulla facilisi nullam. Posuere ac ut consequat semper viverra nam. Ac tortor vitae purus faucibus ornare suspendisse sed nisi lacus. Egestas sed sed risus pretium quam vulputate dignissim suspendisse in. Tempor orci eu lobortis elementum nibh. Senectus et netus et malesuada fames ac turpis egestas integer. Id cursus metus aliquam eleifend mi in nulla posuere sollicitudin. Sed nisi lacus sed viverra tellus. Non curabitur gravida arcu ac tortor dignissim convallis aenean.
+La agrupación en clústeres es una técnica de aprendizaje automático que implica la agrupación de puntos de datos. Dado un conjunto de puntos de datos, podemos usar un algoritmo de agrupamiento para clasificar cada punto de datos en un grupo específico. En teoría, los puntos de datos que están en el mismo grupo deberían tener propiedades o características similares, mientras que los puntos de datos en diferentes grupos deberían tener propiedades o características muy diferentes. La agrupación en clústeres es un método de aprendizaje no supervisado y es una técnica común para el análisis de datos estadísticos que se utiliza en muchos campos.
 
-Sem et tortor consequat id porta. Diam sit amet nisl suscipit adipiscing bibendum est ultricies. Amet nulla facilisi morbi tempus. Blandit massa enim nec dui nunc mattis. Non enim praesent elementum facilisis leo vel fringilla est. Eleifend quam adipiscing vitae proin sagittis nisl rhoncus. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Eget nunc lobortis mattis aliquam faucibus purus. Volutpat ac tincidunt vitae semper quis. Cursus eget nunc scelerisque viverra mauris. Purus semper eget duis at tellus at urna. Mauris commodo quis imperdiet massa tincidunt nunc pulvinar sapien. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique senectus. Nunc non blandit massa enim nec. Ut porttitor leo a diam sollicitudin.
+En Ciencia de datos (Data Science), podemos usar el análisis de agrupamiento para obtener información valiosa de nuestros datos al ver en qué grupos se encuentran los puntos de datos cuando aplicamos un algoritmo de agrupamiento. Hoy, veremos 5 algoritmos de agrupación en clústeres populares que los científicos de datos deben conocer y sus pros y contras.
 
-Tincidunt tortor aliquam nulla facilisi cras. Id semper risus in hendrerit. Magna fermentum iaculis eu non. At consectetur lorem donec massa sapien faucibus et. Est placerat in egestas erat imperdiet sed euismod nisi porta. Lacus vel facilisis volutpat est velit egestas dui. Sapien pellentesque habitant morbi tristique senectus et. Ut tellus elementum sagittis vitae et. Et malesuada fames ac turpis. Volutpat commodo sed egestas egestas. Praesent tristique magna sit amet purus gravida quis. Turpis egestas pretium aenean pharetra.
+## K-means Clustering (k-medias)
+
+K-Means es probablemente el algoritmo de agrupación en clústeres más conocido. Se enseña en muchas clases de introducción a la ciencia de datos y al aprendizaje automático. ¡Es fácil de entender e implementar en código! Consulte el gráfico a continuación para ver una ilustración.
+
+
+![](https://miro.medium.com/max/480/1\*KrcZK0xYgTa4qFrVr0fO2w.gif)
+
+1.  Para comenzar, primero seleccionamos una cantidad de clases o grupos para usar e inicializamos aleatoriamente sus respectivos puntos centrales. Para calcular la cantidad de clases que se deben usar, es bueno echar un vistazo rápido a los datos e intentar identificar cualquier agrupación distinta. Los puntos centrales son vectores de la misma longitud que cada punto vector de datos y son las "X" en el gráfico de arriba.
+
+2.  Cada punto de datos se clasifica calculando la distancia entre ese punto y el centro de cada grupo, y luego clasificando el punto para que esté en el grupo cuyo centro está más cerca de él.
+
+3.  Con base en estos puntos clasificados, recalculamos el centro del grupo tomando la media de todos los vectores del grupo.
+
+4.  Repita estos pasos para un número determinado de iteraciones o hasta que los centros del grupo no cambien mucho entre iteraciones. También puede optar por inicializar aleatoriamente los centros de grupo varias veces y luego seleccionar la ejecución que parece que proporcionó los mejores resultados.
