@@ -1,5 +1,7 @@
 ---
-title: Hola Mundo (Amet Nulla Facilisi Morbi Tempus)
+title: >-
+  Los 5 algoritmos de agrupación en clústeres que los científicos de datos deben
+  conocer
 date: '2020-06-02'
 author: content/data/team/gordon-norman.yaml
 categories:
