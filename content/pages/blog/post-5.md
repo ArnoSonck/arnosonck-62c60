@@ -5,6 +5,7 @@ author: content/data/team/gordon-norman.yaml
 categories:
   - content/data/categories/tutorials.yaml
   - content/data/categories/statistics.yaml
+  - content/data/categories/category-yr12d3ueu.json
 tags:
   - Stackbit
   - Netlify
