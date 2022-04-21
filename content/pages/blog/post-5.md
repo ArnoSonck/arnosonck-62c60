@@ -47,7 +47,7 @@ seo:
       relativeUrl: true
 layout: post
 ---
-**Este post es una traducción** del siguiente [artículo](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68).
+Este post es una traducción del siguiente [artículo](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68).
 Los nombres de los algoritmos los manejare en inglés.
 Todos los creditos van a su creador George Seif.
 
