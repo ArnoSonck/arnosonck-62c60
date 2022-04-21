@@ -1,8 +1,7 @@
 ---
 title: >-
-  Los 5 algoritmos de agrupación en clústeres que los científicos de datos deben
-  conocer
-date: '2021-12-22'
+  Modelado de un Motor de Corriente Directa
+date: '2022-04-22'
 author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/statistics.yaml
@@ -14,14 +13,12 @@ tags:
   - Español
 image: https://i.ibb.co/v4Tg9vh/Data-Clustering.jpg
 image_alt: Post 5 placeholder image
-excerpt: Este post es una traducción del post creado por George Seif - Foto de Anna Nekrashevich en Pexels.
+excerpt: Un motor une el electromagnetismo y la mecánica, dando lugar a nuevo campo llamado electromecánica. - Foto de Anna Nekrashevich en Pexels.
 seo:
   title: >-
-    Los 5 algoritmos de agrupación en clústeres que los científicos de datos
-    deben conocer.
+    Modelado de un Motor de Corriente Directa.
   description: >-
-    Los 5 algoritmos de agrupación en clústeres que los científicos de datos
-    deben conocer
+    Modelado de un Motor de Corriente Directa.
   extra:
     - name: 'og:type'
       value: article
@@ -47,9 +44,7 @@ seo:
       relativeUrl: true
 layout: post
 ---
-Este post es una traducción del siguiente [artículo](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68).
-Los nombres de los algoritmos los manejare en inglés.
-Todos los creditos van a su creador George Seif.
+Un motor es un buen ejemplo donde fenómenos de diferentes naturaleza se mezclan, el electromagnético y el mecánico, dando lugar a nuevo campo llamado electromecánica. En este ártico mostrare una manera de obtener un modelo matemático para este sistema.
 
 La agrupación en clústeres es una técnica de aprendizaje automático que implica la agrupación de puntos de datos. Dado un conjunto de puntos de datos, podemos usar un algoritmo de agrupamiento para clasificar cada punto de datos en un grupo específico. En teoría, los puntos de datos que están en el mismo grupo deberían tener propiedades o características similares, mientras que los puntos de datos en diferentes grupos deberían tener propiedades o características muy diferentes. La agrupación en clústeres es un método de aprendizaje no supervisado y es una técnica común para el análisis de datos estadísticos que se utiliza en muchos campos.
 
