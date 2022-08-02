@@ -1,27 +1,22 @@
 ---
 title: >-
-  Los 5 algoritmos de agrupación en clústeres que los científicos de datos deben
-  conocer
+  Ejemplo de modelado de un robot
 date: '2021-12-22'
 author: content/data/team/arno-sonck.yaml
 categories:
-  - content/data/categories/statistics.yaml
-  - content/data/categories/clustering.json
+  - content/data/categories/robotics.yaml
   - content/data/categories/espanol.json
 tags:
-  - Statistics
-  - Clustering
+  - Robotica
   - Español
-image: https://i.ibb.co/v4Tg9vh/Data-Clustering.jpg
+image: https://i.ibb.co/njS4Fdc/RRR.png
 image_alt: Post 5 placeholder image
-excerpt: Este post es una traducción del post creado por George Seif - Foto de Anna Nekrashevich en Pexels.
+excerpt: Ejemplo de modelado de un robot
 seo:
   title: >-
-    Los 5 algoritmos de agrupación en clústeres que los científicos de datos
-    deben conocer.
+    Ejemplo de modelado de un robot
   description: >-
-    Los 5 algoritmos de agrupación en clústeres que los científicos de datos
-    deben conocer
+    Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.
   extra:
     - name: 'og:type'
       value: article
