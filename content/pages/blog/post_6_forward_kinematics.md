@@ -42,6 +42,14 @@ seo:
       relativeUrl: true
 layout: post
 ---
+
+<iframe 
+      src="https://deepnote.com/workspace/arnosonck-764d2605-cc3b-42e7-994e-b3b204ad302e/project/RobotRRR-5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/%2FParte1.ipynb"
+      width="100%" 
+      height="100%"
+    >
+</iframe>
+
 # Ejemplo de modelado de un robot
 Como parte de un proyecto personal he decidido probar varias leyes de control en un robot angular. En este primer artículo presentaré el modelado de un brazo robótico (omitiendo el actuador final) en configuración angular.
 
@@ -129,4 +137,4 @@ $$
 
 donde $n = [n_x,n_y,n_z]^T$, $s = [s_x,s_y,s_z]^T$, $a = [a_x,a_y,a_z]^T$ y $d = [d_x,d_y,d_z]^T$.
 
-La posición del origen del tercer marco de referencia ($O_3$) para los ángulos $(\theta_1,\theta_2,\theta_3)$ nos las da el vector $d$, las componentes del eje $x_3$ en los ejes de $O_0$ nos las da el vector $n$, las componentes del eje $y_3$ en los ejes de $O_0$ nos las da el vector $s$ y las componentes del eje $z_3$ en los ejes de $O_0$ nos las da el vector $a$. 
+La posición del origen del tercer marco de referencia ($O_3$) para los ángulos $(\theta_1,\theta_2,\theta_3)$ nos las da el vector $d$, las componentes del eje $x_3$ en los ejes de $O_0$ nos las da el vector $n$, las componentes del eje $y_3$ en los ejes de $O_0$ nos las da el vector $s$ y las componentes del eje $z_3$ en los ejes de $O_0$ nos las da el vector $a$.
