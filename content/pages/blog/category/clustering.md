@@ -6,7 +6,7 @@ sections:
     align: center
   - type: blog_feed_section
     show_recent: false
-    category: content/data/categories/clustering.json
+    category: content/data/categories/clustering.yaml
 seo:
   title: Posts in Observers
   description: This is the category archive page
