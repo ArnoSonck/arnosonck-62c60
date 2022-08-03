@@ -44,7 +44,7 @@ layout: post
 ---
 
 <iframe 
-      src="https://deepnote.com/workspace/arnosonck-764d2605-cc3b-42e7-994e-b3b204ad302e/project/RobotRRR-5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/%2FParte1.ipynb"
+      src="https://deepnote.com/@arnosonck/RobotRRR-5f5f6565-4d6c-4d28-8c45-3653a1d6be8e"
       width="100%" 
       height="100%"
     >
