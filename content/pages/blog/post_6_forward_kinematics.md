@@ -55,7 +55,6 @@ When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
 $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
 </body>
 
-# Ejemplo de modelado de un robot
 Como parte de un proyecto personal he decidido probar varias leyes de control en un robot angular. En este primer artículo presentaré el modelado de un brazo robótico (omitiendo el actuador final) en configuración angular.
 
 La configuración angular se compone de tres articulaciones rotatorias, tiene un volumen de trabajo con forma de esfera solamente limitado por el rango de cada articulación y la interferencia que pueda tener consigo mismo. Esta configuración suele ser la base de los robots articulados de 6 grados de libertad (Ver Figura 1).
@@ -68,7 +67,7 @@ La configuración angular se compone de tres articulaciones rotatorias, tiene un
 Seguiremos el convencionalismo  de Denavit Hartenberg que fue presentado por James Denavit y Richard S. Hartenberg en 1955 y nos permite hacer el mapeo de articulación en articulación de forma sistemática.
 
 ### Definiendo ejes
-Comenzamos con los ejes $z$ de cada marco de referencia, el eje $x_0$ va alineado con el eje de rotación de la primera articulación, el eje $x_1$ va alineado con el eje de rotación de la segunda articulación y el eje $x_2$ va alineado con el eje de rotación de la tercera articulación. El sistema de coordenadas $3$ lo definiremos al final.
+Comenzamos con los ejes $z$ de cada marco de referencia, el eje \(x_0\) va alineado con el eje de rotación de la primera articulación, el eje $x_1$ va alineado con el eje de rotación de la segunda articulación y el eje \(x_2\) va alineado con el eje de rotación de la tercera articulación. El sistema de coordenadas \(3\) lo definiremos al final.
 
 El eje $x_0$ lo podemos colocar donde queramos sobre el eje $z_0$, por conveniencia lo colocaremos en la intersección del eje $z_0$ y $z_1$ apuntando hacia la derecha. Como los ejes $z_0$ y $z_1$ se intersectan, colocaremos el eje $x_1$ en dicha intersección pero normal a los ejes $z_0$ y $z_1$. El eje $z_2$ esta en dirección de una línea normal que une los ejes $z_1$ y $z_2$, tenemos una infinidad de estas líneas y por conveniencia escogeremos la única que también toca el eje $x_1$.
 
