@@ -63,14 +63,14 @@ La configuración angular se compone de tres articulaciones rotatorias, tiene un
 <h5><center> Figura 1: Configuración articular, el eslabón 1 esta indicado en color verde, el 2 en color azúl y el 3 en rojo. </center></h5>
 
 
-## Parametros del robot
+<h2> Parametros del robot </h2>
 Seguiremos el convencionalismo  de Denavit Hartenberg que fue presentado por James Denavit y Richard S. Hartenberg en 1955 y nos permite hacer el mapeo de articulación en articulación de forma sistemática.
 
-### Definiendo ejes
+<h3> Definiendo ejes </h3>
 Comenzamos con los ejes $z$ de cada marco de referencia, el eje \(x_0\) va alineado con el eje de rotación de la primera articulación, el eje $x_1$ va alineado con el eje de rotación de la segunda articulación y el eje \(x_2\) va alineado con el eje de rotación de la tercera articulación. El sistema de coordenadas \(3\) lo definiremos al final.
 </body>
 
-El eje $x_0$ lo podemos colocar donde queramos sobre el eje $z_0$, por conveniencia lo colocaremos en la intersección del eje $z_0$ y $z_1$ apuntando hacia la derecha. Como los ejes $z_0$ y $z_1$ se intersectan, colocaremos el eje $x_1$ en dicha intersección pero normal a los ejes $z_0$ y $z_1$. El eje $z_2$ esta en dirección de una línea normal que une los ejes $z_1$ y $z_2$, tenemos una infinidad de estas líneas y por conveniencia escogeremos la única que también toca el eje $x_1$.
+\(a \ne 0\) El eje $x_0$ lo podemos colocar donde queramos sobre el eje $z_0$, por conveniencia lo colocaremos en la intersección del eje $z_0$ y $z_1$ apuntando hacia la derecha. Como los ejes $z_0$ y $z_1$ se intersectan, colocaremos el eje $x_1$ en dicha intersección pero normal a los ejes $z_0$ y $z_1$. El eje $z_2$ esta en dirección de una línea normal que une los ejes $z_1$ y $z_2$, tenemos una infinidad de estas líneas y por conveniencia escogeremos la única que también toca el eje $x_1$.
 
 Hasta el momento hemos definido la dirección de los ejes $z_i$ y $x_i$, podemos determinar el origen $O_i$ de cada sistema como el punto donde se intersectan estos ejes, el sentido de estos ejes es a conveniencia y los ejes $y_i$ se agregan siguiendo el convencionalismo de la mano derecha (dedo índice corresponde al eje $x$, dedo medio al eje $y$ y el pulgar al eje $z&).
 
