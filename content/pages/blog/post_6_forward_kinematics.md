@@ -43,12 +43,17 @@ seo:
 layout: post
 ---
 
-<iframe 
-      src="https://deepnote.com/@arnosonck/RobotRRR-5f5f6565-4d6c-4d28-8c45-3653a1d6be8e"
-      width="100%" 
-      height="100%"
-    >
-</iframe>
+<head>
+<title>MathJax TeX Test Page</title>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+</head>
+<body>
+When \(a \ne 0\), there are two solutions to \(ax^2 + bx + c = 0\) and they are
+$$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
+</body>
 
 # Ejemplo de modelado de un robot
 Como parte de un proyecto personal he decidido probar varias leyes de control en un robot angular. En este primer artículo presentaré el modelado de un brazo robótico (omitiendo el actuador final) en configuración angular.
