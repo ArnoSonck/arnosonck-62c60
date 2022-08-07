@@ -75,17 +75,11 @@ Seguiremos el convencionalismo  de Denavit Hartenberg que fue presentado por Jam
 <p>Para el eslabón 3 tenemos que la distancia desde la intersección del eje \(x_3\) y \(z_2\) hasta el origen \(O_3\)a lo largo de \(x_3\) es la longitud del eslabón y la nombraremos \(a_3\). El eje \(z_2 \) y el eje \(z_3\) son paralelos. por lo que \(\alpha_3=0\). La distancia desde \(z_2\) hasta la intersección del eje \(z_2\) con \(x_3\) es \(0 \)por lo que \(d_3=0\). Finalmente, el ángulo desde \(x_2\) hasta \(x_3\) medido en el eje \(z_2\) es \(\theta_3\).</p>
 <p>Con esto en mente, definimos la siguiente tabla con los parámetros de Denavit Hartenberg:</p>
 
-<div class="note" markdown="1">| Eslabón | <p>\(a_i \)</p>| <p>\(\alpha_i \)</p> | <p>\(d_i \)</p>| <p>\(\theta_i \)</p>|
+| Eslabón | \(a_i \)| \(\alpha_i \) | \(d_i \)| \(\theta_i \)|
 |:-------:|:-----:|:-----------:|:-----:|:----------:|
 |    1    |  <p>\(0 \)</p> |  <p>\(\pi/2 \)</p>   |  <p>\(0 \)</p> | <p>\(\theta_1 \)</p>|
 |    2    | <p>\(a_2 \)</p>|     <p>\(0 \)</p>    |  <p>\(0 \)</p> | <p>\(\theta_2 \)</p>|
-|    3    | <p>\(a_3 \)</p>|     <p>\(0 \)</p>    |  <p>\(0 \)</p> | <p>\(\theta_3 \)</p>|</div>
-
-<p>| Eslabón | \(a_i \)| \(\alpha_i \) | \(d_i \)| \(\theta_i \)|
-|:-------:|:-----:|:-----------:|:-----:|:----------:|
-|    1    |  \(0 \) |  \(\pi/2 \)   |  \(0 \) | \(\theta_1 \)|
-|    2    | \(a_2 \)|     \(0 \)    |  \(0 \) | \(\theta_2 \)|
-|    3    | \(a_3 \)|     \(0 \)    |  \(0 \) | \(\theta_3 \)|</p>
+|    3    | <p>\(a_3 \)</p>|     <p>\(0 \)</p>    |  <p>\(0 \)</p> | <p>\(\theta_3 \)</p>|
 
 <h3>Modelo cinemático directo</h3>
 <p>Con los parámetros de Denavit Hartenberg identificados, tenemos las siguientes matrices de transformación homogénea:</p>
@@ -117,7 +111,7 @@ De aquí se sigue la matriz de transformación que va de 0 a 3 es:
 $$
 T_3^0=\left[\begin{array}{cccc} \cos\left(\theta _{2}+\theta _{3}\right)\,\cos\left(\theta _{1}\right) & -\sin\left(\theta _{2}+\theta _{3}\right)\,\cos\left(\theta _{1}\right) & \sin\left(\theta _{1}\right) & \cos\left(\theta _{1}\right)\,\left(a_{3}\,\cos\left(\theta _{2}+\theta _{3}\right)+a_{2}\,\cos\left(\theta _{2}\right)\right)\\ \cos\left(\theta _{2}+\theta _{3}\right)\,\sin\left(\theta _{1}\right) & -\sin\left(\theta _{2}+\theta _{3}\right)\,\sin\left(\theta _{1}\right) & -\cos\left(\theta _{1}\right) & \sin\left(\theta _{1}\right)\,\left(a_{3}\,\cos\left(\theta _{2}+\theta _{3}\right)+a_{2}\,\cos\left(\theta _{2}\right)\right)\\ \sin\left(\theta _{2}+\theta _{3}\right) & \cos\left(\theta _{2}+\theta _{3}\right) & 0 & a_{3}\,\sin\left(\theta _{2}+\theta _{3}\right)+a_{2}\,\sin\left(\theta _{2}\right)\\ 0 & 0 & 0 & 1 \end{array}\right]
 $$
-Esta matriz representa el modelo cinemático directo de nuestro robot, para entenderla mejor, representamos a \(T_3^0 \)de la siguiente forma:
+Esta matriz representa el modelo cinemático directo de nuestro robot, para entenderla mejor, representamos a \(T_3^0 \) de la siguiente forma:
 $$
 T_3^0 =\left[ \begin{array}{cccc}
       n      &       s       &  a &       d\\
