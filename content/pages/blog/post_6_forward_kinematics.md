@@ -75,11 +75,17 @@ Seguiremos el convencionalismo  de Denavit Hartenberg que fue presentado por Jam
 <p>Para el eslabón 3 tenemos que la distancia desde la intersección del eje \(x_3\) y \(z_2\) hasta el origen \(O_3\)a lo largo de \(x_3\) es la longitud del eslabón y la nombraremos \(a_3\). El eje \(z_2 \) y el eje \(z_3\) son paralelos. por lo que \(\alpha_3=0\). La distancia desde \(z_2\) hasta la intersección del eje \(z_2\) con \(x_3\) es \(0 \)por lo que \(d_3=0\). Finalmente, el ángulo desde \(x_2\) hasta \(x_3\) medido en el eje \(z_2\) es \(\theta_3\).</p>
 <p>Con esto en mente, definimos la siguiente tabla con los parámetros de Denavit Hartenberg:</p>
 
-| Eslabón | <p>\(a_i \)</p>| <p>\(\alpha_i \)</p> | <p>\(d_i \)</p>| <p>\(\theta_i \)</p>|
+<p>| Eslabón | <p>\(a_i \)</p>| <p>\(\alpha_i \)</p> | <p>\(d_i \)</p>| <p>\(\theta_i \)</p>|
 |:-------:|:-----:|:-----------:|:-----:|:----------:|
 |    1    |  <p>\(0 \)</p> |  <p>\(\pi/2 \)</p>   |  <p>\(0 \)</p> | <p>\(\theta_1 \)</p>|
 |    2    | <p>\(a_2 \)</p>|     <p>\(0 \)</p>    |  <p>\(0 \)</p> | <p>\(\theta_2 \)</p>|
-|    3    | <p>\(a_3 \)</p>|     <p>\(0 \)</p>    |  <p>\(0 \)</p> | <p>\(\theta_3 \)</p>|
+|    3    | <p>\(a_3 \)</p>|     <p>\(0 \)</p>    |  <p>\(0 \)</p> | <p>\(\theta_3 \)</p>|</p>
+
+<p>| Eslabón | \(a_i \)| \(\alpha_i \) | \(d_i \)| \(\theta_i \)|
+|:-------:|:-----:|:-----------:|:-----:|:----------:|
+|    1    |  \(0 \) |  \(\pi/2 \)   |  \(0 \) | \(\theta_1 \)|
+|    2    | \(a_2 \)|     \(0 \)    |  \(0 \) | \(\theta_2 \)|
+|    3    | \(a_3 \)|     \(0 \)    |  \(0 \) | \(\theta_3 \)|</p>
 
 <h3>Modelo cinemático directo</h3>
 <p>Con los parámetros de Denavit Hartenberg identificados, tenemos las siguientes matrices de transformación homogénea:</p>
