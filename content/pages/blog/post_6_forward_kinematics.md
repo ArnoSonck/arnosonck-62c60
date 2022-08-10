@@ -5,7 +5,7 @@ date: '2022-08-02'
 author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/robotics.yaml
-  - content/data/categories/espanol.json
+  - content/data/categories/espanol.yaml
 tags:
   - Robotica
   - Español
@@ -22,23 +22,23 @@ seo:
       value: article
       keyName: property
     - name: 'og:title'
-      value: Amet Nulla Facilisi Morbi Tempus
+      value: Ejemplo de modelado de un robot
       keyName: property
     - name: 'og:description'
-      value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
+      value: 'Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.'
       keyName: property
     - name: 'og:image'
-      value: images/5.png
+      value: https://i.ibb.co/njS4Fdc/RRR.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Amet Nulla Facilisi Morbi Tempus
+      value: Ejemplo de modelado de un robot
     - name: 'twitter:description'
-      value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
+      value: 'Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.'
     - name: 'twitter:image'
-      value: images/5.png
+      value: https://i.ibb.co/njS4Fdc/RRR.png
       relativeUrl: true
 layout: post
 ---
@@ -111,7 +111,7 @@ De aquí se sigue la matriz de transformación que va de 0 a 3 es:
 $$
 T_3^0=\left[\begin{array}{cccc} \cos\left(\theta _{2}+\theta _{3}\right)\,\cos\left(\theta _{1}\right) & -\sin\left(\theta _{2}+\theta _{3}\right)\,\cos\left(\theta _{1}\right) & \sin\left(\theta _{1}\right) & \cos\left(\theta _{1}\right)\,\left(a_{3}\,\cos\left(\theta _{2}+\theta _{3}\right)+a_{2}\,\cos\left(\theta _{2}\right)\right)\\ \cos\left(\theta _{2}+\theta _{3}\right)\,\sin\left(\theta _{1}\right) & -\sin\left(\theta _{2}+\theta _{3}\right)\,\sin\left(\theta _{1}\right) & -\cos\left(\theta _{1}\right) & \sin\left(\theta _{1}\right)\,\left(a_{3}\,\cos\left(\theta _{2}+\theta _{3}\right)+a_{2}\,\cos\left(\theta _{2}\right)\right)\\ \sin\left(\theta _{2}+\theta _{3}\right) & \cos\left(\theta _{2}+\theta _{3}\right) & 0 & a_{3}\,\sin\left(\theta _{2}+\theta _{3}\right)+a_{2}\,\sin\left(\theta _{2}\right)\\ 0 & 0 & 0 & 1 \end{array}\right]
 $$
-Esta matriz representa el modelo cinemático directo de nuestro robot, para entenderla mejor, representamos a \(T_3^0 \)de la siguiente forma:
+Esta matriz representa el modelo cinemático directo de nuestro robot, para entenderla mejor, representamos a \(T_3^0 \) de la siguiente forma:
 $$
 T_3^0 =\left[ \begin{array}{cccc}
       n      &       s       &  a &       d\\
@@ -119,6 +119,6 @@ T_3^0 =\left[ \begin{array}{cccc}
 \end{array} \right]
 $$
 donde \(n = [n_x,n_y,n_z]^T\), \(s = [s_x,s_y,s_z]^T\), \(a = [a_x,a_y,a_z]^T\) y \(d = [d_x,d_y,d_z]^T\).
-La posición del origen del tercer marco de referencia \(O_3\) para los ángulos \(\theta_1,\theta_2,\theta_3\)nos las da el vector \(d\), las componentes del eje \(x_3\) en los ejes de \(O_0\) nos las da el vector \(n\), las componentes del eje \(y_3\) en los ejes de \(O_0\) nos las da el vector \(s\) y las componentes del eje \(z_3\) en los ejes de \(O_0\) nos las da el vector \(a\).
+La posición del origen del tercer marco de referencia \(O_3\) para los ángulos \(\theta_1,\theta_2,\theta_3\) nos las da el vector \(d\), las componentes del eje \(x_3\) en los ejes de \(O_0\) nos las da el vector \(n\), las componentes del eje \(y_3\) en los ejes de \(O_0\) nos las da el vector \(s\) y las componentes del eje \(z_3\) en los ejes de \(O_0\) nos las da el vector \(a\).
 
 </body>
