@@ -22,7 +22,7 @@ seo:
       value: article
       keyName: property
     - name: 'og:title'
-      value: Ejemplo de modelado de un robot
+      value: Ejemplo de modelado de un robot angular
       keyName: property
     - name: 'og:description'
       value: 'Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.'
@@ -34,7 +34,7 @@ seo:
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Ejemplo de modelado de un robot
+      value: Ejemplo de modelado de un robot angular
     - name: 'twitter:description'
       value: 'Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.'
     - name: 'twitter:image'
