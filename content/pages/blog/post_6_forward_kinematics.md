@@ -5,7 +5,7 @@ date: '2022-08-02'
 author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/robotics.yaml
-  - content/data/categories/espanol.json
+  - content/data/categories/espanol.yaml
 tags:
   - Robotica
   - Español
@@ -22,23 +22,23 @@ seo:
       value: article
       keyName: property
     - name: 'og:title'
-      value: Amet Nulla Facilisi Morbi Tempus
+      value: Ejemplo de modelado de un robot angular
       keyName: property
     - name: 'og:description'
-      value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
+      value: 'Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.'
       keyName: property
     - name: 'og:image'
-      value: images/5.png
+      value: https://i.ibb.co/njS4Fdc/RRR.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Amet Nulla Facilisi Morbi Tempus
+      value: Ejemplo de modelado de un robot angular
     - name: 'twitter:description'
-      value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
+      value: 'Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.'
     - name: 'twitter:image'
-      value: images/5.png
+      value: https://i.ibb.co/njS4Fdc/RRR.png
       relativeUrl: true
 layout: post
 ---
@@ -119,6 +119,6 @@ T_3^0 =\left[ \begin{array}{cccc}
 \end{array} \right]
 $$
 donde \(n = [n_x,n_y,n_z]^T\), \(s = [s_x,s_y,s_z]^T\), \(a = [a_x,a_y,a_z]^T\) y \(d = [d_x,d_y,d_z]^T\).
-La posición del origen del tercer marco de referencia \(O_3\) para los ángulos \(\theta_1,\theta_2,\theta_3\)nos las da el vector \(d\), las componentes del eje \(x_3\) en los ejes de \(O_0\) nos las da el vector \(n\), las componentes del eje \(y_3\) en los ejes de \(O_0\) nos las da el vector \(s\) y las componentes del eje \(z_3\) en los ejes de \(O_0\) nos las da el vector \(a\).
+La posición del origen del tercer marco de referencia \(O_3\) para los ángulos \(\theta_1,\theta_2,\theta_3\) nos las da el vector \(d\), las componentes del eje \(x_3\) en los ejes de \(O_0\) nos las da el vector \(n\), las componentes del eje \(y_3\) en los ejes de \(O_0\) nos las da el vector \(s\) y las componentes del eje \(z_3\) en los ejes de \(O_0\) nos las da el vector \(a\).
 
 </body>
