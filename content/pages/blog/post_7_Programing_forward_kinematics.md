@@ -1,7 +1,7 @@
 ---
 title: >-
   Matriz de transformación en Python
-date: '2022-08-09'
+date: '2022-08-17'
 author: content/data/team/arno-sonck.yaml
 categories:
   - content/data/categories/robotics.yaml
@@ -58,7 +58,7 @@ layout: post
 
 <p><b>Nota:</b> los prefijos \(i\) y \(j\) significa que son sistemas de coordenadas diferentes.</p>
 
-<p>Si seguimos la metodología de Denavit Hartenberg entonces podemos generar nuestra matriz de transformación tomando como entrada los valores \([a_i\), \(alpha_i\), \(d_i\), \(theta_i]\) del eslabón \(i\) y podemos determinar los cuatro vectores que describimos anteriormente de forma independiente para facilitar la lectura del código y al final concatenarlos en una matriz.</p>
+<p>Si seguimos la metodología de Denavit Hartenberg entonces podemos generar nuestra matriz de transformación tomando como entrada los valores \([a_i\), \(\alpha_i\), \(d_i\), \(\theta_i]\) del eslabón \(i\) y podemos determinar los cuatro vectores que describimos anteriormente de forma independiente para facilitar la lectura del código y al final concatenarlos en una matriz.</p>
 
 <p><b>Nota:</b> es importante asegurarse que se retorne una matriz y no un array para que la multiplicación sea multiplicación de matrices y no elemento a elemento. Esto también permite usar otras fuciones de numpy que requieren matrices como argumentos de entrada.</p>
 
@@ -66,8 +66,9 @@ layout: post
 
 <h3>La función queda así:</h3>
 
-<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/b7b6f01d17094ac9a61920277273b1da?height=1181" height="1181" width="500"/>
+<p><b>Nota:</b> me hubiera gustado usar tipado estático pero no encontre un módulo de Python que me permitiera usarlo con variables de tipo matriz.</p>
 
-<p><b>Nota:</b> me hubiera gustado usar tipado estático pero no encontre un módulo de Python que me permitiera usarlo con variable de tipo matriz.</p>
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/b7b6f01d17094ac9a61920277273b1da?height=1181" height="1181" width=100%/>
+
 
 </body>
