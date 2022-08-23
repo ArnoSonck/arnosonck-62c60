@@ -72,9 +72,15 @@ layout: post
 
 <h3>Ejemplo</h3>
 
-<p>Supondremos que los eslabones \(2\) y \(3\) del robot tienen una longitud entre ajes \(z\) de \(30 cm\)  dandonos los suguientes parametros de Denavit Hartenberg</p>
+<p>Supondremos que los eslabones \(2\) y \(3\) del robot tienen una longitud entre ajes \(z\) de \(30\) \(cm\)  dandonos los suguientes parametros de Denavit Hartenberg</p>
 
 <iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/4a531be714fd4487b1f54ec445160044?height=170" height="170" width=100%></iframe>
+
+<p>Con estas listas creamos las matrices de transformación, que para nosotros seran funciones que al recibir un angulo nos dara la orientación y posición de un eslabón en relación al eslabón anterior.</p>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/5a9c6442bba64345bf06bdfee7f7c0f0?height=134" height="134" width="500"></iframe>
+
+<p>Por ejemplo, el primer eslabón no puede modificar desplazamiento en ningún eje, pero si su orientación en relación al sistema de referencia /(0/). Por ejmeplo, para /(\theta=0/), los ejes /(x/) siguen alineados, el eje /(y_1/) es paralelo al eje /(z_0/) y el eje /(z_1/) es paralelo y contrario a /(y_0/).</p>
 
 
 </body>
