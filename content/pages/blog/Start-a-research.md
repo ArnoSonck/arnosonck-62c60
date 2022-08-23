@@ -23,7 +23,7 @@ seo:
       value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
       keyName: property
     - name: 'og:image'
-      value: images/1.png
+      value: https://i.ibb.co/BjKMN2P/pexels-mohammad-danish-891059.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -33,7 +33,7 @@ seo:
     - name: 'twitter:description'
       value: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit'
     - name: 'twitter:image'
-      value: images/1.png
+      value: https://i.ibb.co/BjKMN2P/pexels-mohammad-danish-891059.jpg
       relativeUrl: true
 layout: post
 ---
