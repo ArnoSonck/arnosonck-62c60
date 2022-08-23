@@ -33,7 +33,7 @@ seo:
       value: Quae diligentissime contra Aristonem dicuntur a Chryippo
       keyName: property
     - name: 'og:image'
-      value: images/2.png
+      value: https://i.ibb.co/gVnSv4B/pexels-lukas-590045.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -43,7 +43,7 @@ seo:
     - name: 'twitter:description'
       value: Quae diligentissime contra Aristonem dicuntur a Chryippo
     - name: 'twitter:image'
-      value: images/2.png
+      value: https://i.ibb.co/gVnSv4B/pexels-lukas-590045.jpg
       relativeUrl: true
 layout: post
 ---
