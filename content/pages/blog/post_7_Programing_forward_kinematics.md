@@ -68,7 +68,30 @@ layout: post
 
 <p><b>Nota:</b> me hubiera gustado usar tipado estático pero no encontre un módulo de Python que me permitiera usarlo con variables de tipo matriz.</p>
 
-<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/b7b6f01d17094ac9a61920277273b1da?height=1181" height="1181" width=100%/>
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/b7b6f01d17094ac9a61920277273b1da?height=1181" height="1181" width=100%></iframe>
 
+<h3>Ejemplo</h3>
+
+<p>Supondremos que los eslabones \(2\) y \(3\) del robot tienen una longitud entre ajes \(z\) de \(30\) \(cm\)  dandonos los suguientes parametros de Denavit Hartenberg</p>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/4a531be714fd4487b1f54ec445160044?height=170" height="170" width=100%></iframe>
+
+<p>Con estas listas creamos las matrices de transformación, que para nosotros seran funciones que al recibir un angulo nos dara la orientación y posición de un eslabón en relación al eslabón anterior.</p>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/5a9c6442bba64345bf06bdfee7f7c0f0?height=134" height="134" width=100%></iframe>
+
+<p>Por ejemplo, el primer eslabón no puede modificar desplazamiento en ningún eje, pero si su orientación en relación al sistema de referencia \(0\). Por ejmeplo, para \(\theta=0\), los ejes \(x\) siguen alineados, el eje \(y_1\) es paralelo al eje \(z_0\) y el eje \(z_1\) es paralelo y contrario a \(y_0\).</p>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/dbd6707bf21a4dfbaa12ad92bbd07199?height=263.9375" height="263.9375" width=100%></iframe>
+
+<p>Para obtener las coordenadas del marco coordemado \(O_3\) multiplicamos las tres matrices, por ejemplo, si todos los ángulos son \(0^\circ\) entonces el origen \(O_3\) esta a \(60 cm\) sobre el eje x, y su orientación sería la misma que en el ejemplo anterior.</p>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/6ad488ed696e428d9204a4ad8562a927?height=746.75" height="746.75" width=100%></iframe>
+
+<p>Nos enfocaremos en la posición, es decir, el vector $d$ de las matrices de transformación.</p>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/685cb0b721544e169f01ef1658e6cbc9?height=314" height="314" width=100%></iframe>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/2dff4d0a9d9640909b4b022f659cc387?height=658.1875" height="658.1875" width=100%></iframe>
 
 </body>
