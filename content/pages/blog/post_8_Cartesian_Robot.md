@@ -282,7 +282,6 @@ $$
 \end{array}
 $$
 
-<p>Aquí se considera que los eslabones se controlar mediante las fuerzas \(f_1\), \(f_2\), y \(f_3\).</p>
-
+<p>Si consideramos que los eslabones se controlan mediante las fuerzas \(f_1\), \(f_2\), y \(f_3\), entonces el termino \((m_2+m_3)g\) se puede considerar como una perturbación en la entrada.</p>
 
 </body>
