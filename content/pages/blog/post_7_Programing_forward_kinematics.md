@@ -70,5 +70,10 @@ layout: post
 
 <iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/b7b6f01d17094ac9a61920277273b1da?height=1181" height="1181" width=100%/>
 
+<h3>Ejemplo</h3>
+
+<p>Supondremos que los eslabones \(2\) y \(3\) del robot tienen una longitud entre ajes \(z\) de \(30 cm\)  dandonos los suguientes parametros de Denavit Hartenberg</p>
+
+<iframe title="Embedded cell output" src="https://embed.deepnote.com/5f5f6565-4d6c-4d28-8c45-3653a1d6be8e/1baf8374-1197-495a-98cc-c04d1455d077/4a531be714fd4487b1f54ec445160044?height=170" height="170" width="500"/>
 
 </body>
