@@ -12,7 +12,7 @@ tags:
   - Español
   - Python
 image: https://i.ibb.co/6XQqKW2/RRRPy.png
-image_alt: Post 5 placeholder image
+image_alt: Robot angular
 excerpt: Muestro el uso de Closures creando matrices de transformación usadas en robótica.
 seo:
   title: >-
@@ -30,7 +30,7 @@ seo:
       value: 'Muestro el uso de Closures creando matrices de transformación usadas en robótica'
       keyName: property
     - name: 'og:image'
-      value: images/5.png
+      value: https://i.ibb.co/6XQqKW2/RRRPy.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -40,7 +40,7 @@ seo:
     - name: 'twitter:description'
       value: 'Muestro el uso de Closures creando matrices de transformación usadas en robótica'
     - name: 'twitter:image'
-      value: images/5.png
+      value: https://i.ibb.co/6XQqKW2/RRRPy.png
       relativeUrl: true
 layout: post
 ---

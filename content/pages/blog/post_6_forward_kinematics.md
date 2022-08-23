@@ -10,7 +10,7 @@ tags:
   - Robotica
   - Español
 image: https://i.ibb.co/njS4Fdc/RRR.png
-image_alt: Post 5 placeholder image
+image_alt: Robot angular
 excerpt: Muestro como aplicar la metodología de Denavit Hartenberg a un robot angular.
 seo:
   title: >-

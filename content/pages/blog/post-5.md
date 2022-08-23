@@ -33,7 +33,7 @@ seo:
       value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
       keyName: property
     - name: 'og:image'
-      value: images/5.png
+      value: https://i.ibb.co/v4Tg9vh/Data-Clustering.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -43,7 +43,7 @@ seo:
     - name: 'twitter:description'
       value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
     - name: 'twitter:image'
-      value: images/5.png
+      value: https://i.ibb.co/v4Tg9vh/Data-Clustering.jpg
       relativeUrl: true
 layout: post
 ---
