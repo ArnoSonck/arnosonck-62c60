@@ -62,7 +62,7 @@ $$
 $$
 
 
-<p> Cuya condición inicial está dada por una función: $\varphi:[-h,0]\to \mathbb{R}^n$ y pertenece al espacio de funciones continuas a pedazos definidas en el segmento $[-h,0]$ definido por $PC([-h,0],\mathbb{R}^n)$. </p>
+<p> Cuya condición inicial está dada por una función: $\varphi: \[-h,0\] \to \mathbb{R}^n$ y pertenece al espacio de funciones continuas a pedazos definidas en el segmento $[-h,0]$ definido por $PC(\[-h,0\],\mathbb{R}^n)$. </p>
 
 <p>Note que la función de la condición inicial y la solución de la ecuación a trabajar deben ser iguales para $t \in [-h,0]$, esto es:</p>
 
@@ -77,7 +77,7 @@ $$
 <p>Para los vectores se usará la norma Euclidiana, para la matrices la norma inducida para matrices y para las funciones pertenecientes al al <b>espacio de funciones continuas a pedazos</b> definidas en el segmento $[-h,0]$ definido por $PC([-h,0],\mathbb{R}^n)$ usaremos la norma uniforme:</p>
 
 $$
-\|\varphi\|_h = \sup_{\theta\in[-h,0]}\|\varphi(\theta)\|
+\|\varphi\|_h = \sup_{\theta\in \[-h,0\] }\|\varphi(\theta)\|
 $$
 
 <h4>Matriz Fundamental</h4>
@@ -188,7 +188,7 @@ $$
 \int_0^tK\left(t-\xi\right)A_1x\left(\xi-h,\varphi\right)d\xi = \int_{-h}^{t-h}K\left(t-\theta-h\right)A_1x\left(\theta,\varphi\right)d\theta
 $$
 
-<p>Como $K(t)=0$ para $t<0$, podemos extender esta integral hasta $t$.</p>
+<p>Como $K(t)=0$ para $t$ menor a $0$, podemos extender esta integral hasta $t$.</p>
 
 <p>Para entender esto mejor evalúe $K()$ en límite superior, esto da $K(t-t+h-h)=K(0) = I,$ si el límite superior crece entonces $K()$ estaría siendo evaluada con valores negativos y para esos valores vale $0$.</p>
 
