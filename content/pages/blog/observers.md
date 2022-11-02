@@ -32,7 +32,7 @@ seo:
       value: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
       keyName: property
     - name: 'og:image'
-      value: images/3.png
+      value: https://i.ibb.co/RztzLKK/pexels-photo-1342460.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -42,7 +42,7 @@ seo:
     - name: 'twitter:description'
       value: 'Quis est, qui non oderit libidinosam, protervam adolescentiam'
     - name: 'twitter:image'
-      value: images/3.png
+      value: https://i.ibb.co/RztzLKK/pexels-photo-1342460.jpg
       relativeUrl: true
 layout: post
 ---

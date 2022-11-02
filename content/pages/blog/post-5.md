@@ -33,7 +33,7 @@ seo:
       value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
       keyName: property
     - name: 'og:image'
-      value: images/5.png
+      value: https://i.ibb.co/v4Tg9vh/Data-Clustering.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -43,12 +43,12 @@ seo:
     - name: 'twitter:description'
       value: 'Estne, quaeso, inquam, sitienti in bibendo voluptas'
     - name: 'twitter:image'
-      value: images/5.png
+      value: https://i.ibb.co/v4Tg9vh/Data-Clustering.jpg
       relativeUrl: true
 layout: post
 ---
 Este post es una traducción del siguiente [artículo](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68).
-Los nombres de los algoritmos los manejare en inglés.
+Los nombres de los algoritmos los manejaré en inglés.
 Todos los creditos van a su creador George Seif.
 
 La agrupación en clústeres es una técnica de aprendizaje automático que implica la agrupación de puntos de datos. Dado un conjunto de puntos de datos, podemos usar un algoritmo de agrupamiento para clasificar cada punto de datos en un grupo específico. En teoría, los puntos de datos que están en el mismo grupo deberían tener propiedades o características similares, mientras que los puntos de datos en diferentes grupos deberían tener propiedades o características muy diferentes. La agrupación en clústeres es un método de aprendizaje no supervisado y es una técnica común para el análisis de datos estadísticos que se utiliza en muchos campos.
