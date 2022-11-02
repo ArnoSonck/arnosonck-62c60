@@ -3,7 +3,7 @@ title: Cómo resolver una ecuación diferencial lineal con un retardo fijo en el
 date: '2022-11-02'
 author: content/data/team/arno-sonck.yaml
 categories:
-  - content/data/categories/delayed_systems.yaml
+  - content/data/categories/delayed.yaml
 tags:
   - Delayed Systems
   - Delayed Diferential Equations
