@@ -9,7 +9,7 @@ sections:
     category: content/data/categories/delayed.yaml
 seo:
   title: Delayed Systems
-  description: This page contains all the posts related to Delayed Systemes or Delayed Diferential Equations.
+  description: This page contains all the posts related to Delayed Systems or Delayed Diferential Equations.
   extra:
     - name: 'og:type'
       value: website
@@ -21,7 +21,7 @@ seo:
       value: Posts In Delayed Systems
       keyName: property
     - name: 'og:image'
-      value: images/1.png
+      value: https://i.ibb.co/TgVc60L/Delayed.png
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
@@ -31,7 +31,7 @@ seo:
     - name: 'twitter:description'
       value: Posts In Delayed Systems
     - name: 'twitter:image'
-      value: images/1.png
+      value: https://i.ibb.co/TgVc60L/Delayed.png
       relativeUrl: true
 layout: advanced
 ---
