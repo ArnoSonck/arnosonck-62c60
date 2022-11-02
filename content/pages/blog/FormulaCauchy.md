@@ -62,9 +62,9 @@ $$
 $$
 
 
-<p>Cuya condición inicial está dada por una función: $\varphi:[-h,0]\to \mathbb{R}^n$ y pertenece al espacio de funciones continuas a pedazos definidas en el segmento $[-h,0]$ definido por $PC([-h,0],\mathbb{R}^n)$.</p>
+<p> Cuya condición inicial está dada por una función: $\varphi:[-h,0]\to \mathbb{R}^n$ y pertenece al espacio de funciones continuas a pedazos definidas en el segmento $[-h,0]$ definido por $PC([-h,0],\mathbb{R}^n)$. </p>
 
-<p>Note que la función de la condición inicial y la solución de la ecuación (1) deben ser iguales para $t \in [-h,0]$, esto es:</p>
+<p>Note que la función de la condición inicial y la solución de la ecuación a trabajar deben ser iguales para $t \in [-h,0]$, esto es:</p>
 
 $$
 x(\theta,\varphi) = \varphi(\theta), \quad \varphi \in [-h,0]
@@ -214,3 +214,4 @@ $$
 x\left(t,\varphi\right) = K\left(t\right)\varphi\left(0\right) + \int_{-h}^{0}K\left(t-\theta-h\right)A_1\varphi\left(\theta\right)d\theta
 $$
 
+</body>
