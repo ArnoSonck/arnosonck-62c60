@@ -74,7 +74,7 @@ $$
 
 <h4>Norma Uniforme</h4>
 
-<p>Para los vectores se usará la norma Euclidiana, para la matrices la norma inducida para matrices y para las funciones pertenecientes al al **espacio de funciones continuas a pedazos** definidas en el segmento $[-h,0]$ definido por $PC([-h,0],\mathbb{R}^n)$ usaremos la norma uniforme:</p>
+<p>Para los vectores se usará la norma Euclidiana, para la matrices la norma inducida para matrices y para las funciones pertenecientes al al <b>espacio de funciones continuas a pedazos</b> definidas en el segmento $[-h,0]$ definido por $PC([-h,0],\mathbb{R}^n)$ usaremos la norma uniforme:</p>
 
 $$
 \|\varphi\|_h = \sup_{\theta\in[-h,0]}\|\varphi(\theta)\|
@@ -88,7 +88,7 @@ $$
 \frac{d}{dt}K(t) = K(t)A_0 + K(t-h)A_1, \quad t\ge0
 $$
 
-<p>y $K(t) = 0_{n\times n}$ para $t<0$, $K(0) = I_{n\times n}$. Aquí  $0_{n\times n}$ y $I_{n\times n}$ son una matriz de puros ceros y la matriz identidad respectivamente de dimensión $n\times n$.</p>
+<p>y $K(t) = 0_{n\times n}$ para $t$ menor a $0$, $K(0) = I_{n\times n}$. Aquí  $0_{n\times n}$ y $I_{n\times n}$ son una matriz de puros ceros y la matriz identidad respectivamente de dimensión $n\times n$.</p>
 
 <h5>Nota</h5>
 
