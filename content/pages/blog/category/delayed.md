@@ -1,7 +1,7 @@
 ---
 title: Delayed Systems
 sections:
-  - type: delayed
+  - type: hero_section
     title: All Posts In Delayed Systems
     align: center
   - type: blog_feed_section
